@@ -1,0 +1,24 @@
+Q.1 --> Difference betweeen HTTP 1.1 vs HTTP 2
+HTTP 1.1 >
+       ! It works on txt format
+       ! There is head of line blocking that blocks all the requests behind it untill it doesnt get its all ressources
+       ! It uses requests resource inlining for getting multiple pages
+       ! It comoresses data by itself 
+HTTP 2 >
+       ! It works on binary protocal
+       ! It allows multiplexing so one TCP connection is required for multiple requests
+       ! It uses push frame by server that collect of multiple pages
+       ! It uses H pack for data compresssion 
+
+Q.2 --> Objects and its internal representation in JS 
+
+ Objects ;
+        Its is an important data type 
+        Its diff from premitive data types
+        Its is defined as unordered collection of related data of premitive or reference types in the form of key and value pairs
+  ex ; 
+       obj name . property name 
+       var mycar=new object ():
+       mycar.make="BMW"
+       mycar.model="2022"
+
